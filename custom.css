@@ -126,7 +126,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap'); */
 
-  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
 
 
 /* presentation mode color tweaks */
@@ -163,7 +163,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 /* code mirror tweaks */
 
 .extensions__code > .CodeMirror {
-  font-family: "Urbanist", serif;
+  font-family: "Urbanist", menlo, consolas, monospace;
   background: var(--ls-secondary-background-color);
 }
 
@@ -189,6 +189,11 @@ html[data-theme="dark"] .CodeMirror {
   content: "→";
   color: #80808040 !important;
   position: absolute;
+}
+
+.cp__right-sidebar .CodeMirror {
+  font-family: "Urbanist", menlo, consolas, monospace;
+  background: var(--ls-block-properties-background-color);
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-selected {
@@ -494,9 +499,8 @@ mark.purple {
 /* `inline code` tweaks */
 
 :not(pre) > code {
-  border-radius: 3px;
+  font-family: "Urbanist", menlo, consolas, monospace;
   font-size: 0.9em;
-  font-family: "Urbanist", serif;
   padding: 1px 3px !important;
 }
 
@@ -676,7 +680,8 @@ del {
 .query-title {
   background: #2e2e2e !important;
   font-size: 0.88em;
-  font-family: "Urbanist", serif;
+  font-family: "Urbanist", menlo, consolas, monospace;
+
 }
 
 .custom-query {
