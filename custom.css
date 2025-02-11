@@ -124,7 +124,10 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 
 /* https://github.com/LeonWong0609/D42ker-Logseq */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* presentation mode color tweaks */
 
@@ -160,7 +163,7 @@ https://github.com/pengx17/logseq-dev-theme/blob/main/bullet_threading.css */
 /* code mirror tweaks */
 
 .extensions__code > .CodeMirror {
-  font-family: "Fira Code", menlo, consolas, monospace;
+  font-family: "Urbanist", menlo, consolas, monospace;
   background: var(--ls-secondary-background-color);
 }
 
@@ -210,7 +213,7 @@ html[data-theme="dark"] .CodeMirror .CodeMirror-linenumber {
 .extensions__code-lang {
   background: var(--ls-block-properties-background-color);
   color: #505050;
-  font-family: "Fira Code", menlo, consolas, monospace;
+  font-family: "Urbanist", menlo, consolas, monospace;
 }
 
 html[data-theme="dark"] .CodeMirror .CodeMirror-gutter .CodeMirror-gutter-text {
@@ -493,7 +496,7 @@ mark.purple {
 :not(pre) > code {
   border-radius: 3px;
   font-size: 0.9em;
-  font-family: "Fira Code", menlo, consolas, monospace;
+  font-family: "Urbanist", menlo, consolas, monospace;
   padding: 1px 3px !important;
 }
 
@@ -673,7 +676,7 @@ del {
 .query-title {
   background: #2e2e2e !important;
   font-size: 0.88em;
-  font-family: "Fira Code", menlo, consolas, monospace;
+  font-family: "Urbanist", menlo, consolas, monospace;
 }
 
 .custom-query {
